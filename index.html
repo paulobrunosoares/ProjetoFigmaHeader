@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Readex+Pro:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>NavBar</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>NavBar</h3>
+        <nav>
+          <div class="nav-link">
+            <a href="" class="link-navBar">
+              <label>Menu01</label>
+              <div class="content-modal" id="md01">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div> </a
+            ><a href="" class="link-navBar"
+              ><label>Menu02</label>
+              <div class="content-modal" id="md02">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div> </a
+            ><a href="" class="link-navBar"
+              ><label>Menu03</label>
+              <div class="content-modal" id="md03">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div>
+            </a>
+            <button id="btnNavDesktop" (click)="funBtn()">CTA button</button>
+          </div>
+
+          <div class="modal-mobile">
+            <button id="closeModal-mobile" (click)="funBtn()">X</button>
+            <details>
+              <summary class="texto">Menu01</summary>
+              <div class="nav-mobile" id="md01">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary class="texto">Menu02</summary>
+              <div class="nav-mobile" id="md01">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary class="texto">Menu03</summary>
+              <div class="nav-mobile" id="md01">
+                <ul>
+                  <li>Opcao01</li>
+                  <li>Opcao02</li>
+                  <li>Opcao03</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+          <div class="hamburger">
+              <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+      </header>
+      <section class="row">
+        <div class="content-rigth row col-5">
+          <img src="./assets/Illustration.png" alt="" />
+          <!-- <div class="content02 col-12"> </div> -->
+        </div>
+        <div class="content-left row col-7">
+          <div class="content01 row col-12">
+            <main>
+              <h1 id="rigth-H1">Minted <br />with delight</h1>
+              <h3 id="rigth-H3">
+                Management Dow Jones industry bandhalders funds <br />
+                municipal bonds government upswing strategy.
+              </h3>
+              <div class="container-button row col-12">
+                <button id="btn-main01">Learm more</button>
+                <button id="btn-main02">Learm more</button>
+              </div>
+            </main>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
