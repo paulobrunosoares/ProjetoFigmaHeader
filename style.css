@@ -247,6 +247,11 @@ header nav .hamburger {
   padding: 2px;
   font-size: 1.4rem;
   letter-spacing: 2mm;
+  cursor: pointer;
+}
+.nav-mobile li:hover {
+  transition: none;
+  color: #929292;
 }
 
 section {

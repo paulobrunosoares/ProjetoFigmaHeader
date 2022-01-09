@@ -274,6 +274,11 @@ header{
         padding: 2px;
         font-size: 1.4rem;
         letter-spacing: 2mm;
+        cursor: pointer;
+        &:hover{
+            transition: none;
+            color: rgb(146, 146, 146);
+        }
     }
 }
 
